@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --bg-color:#a067c9;
+    --second-bg-color:#875fa3;
+    --text-color:black;
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+body{
+    background: var(--bg-color);
+}
+section{
+    padding: 5.5rem;
+    margin: 5rem;
+    text-align: center;
+}
+section h1 {
+    font-size: 3.5rem;
+    padding: 1.5rem;
+}
+form{
+    background: var(--second-bg-color);
+    padding: 9rem;
+    border-radius: 1.5rem;
+}
+form legend {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem;
+    padding-top: 0;
+}
+div .name {
+    width: 50%;
+    height: 2.5rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-radius: 1.5rem;
+}
+form .submit {
+    width: 50%;
+    height: 3rem;
+    margin: 1rem;
+    border-radius:1.5rem ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+div .remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.remember a {
+    margin-left: 20rem;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.remember label {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-left: 1.5rem;
+
+}
